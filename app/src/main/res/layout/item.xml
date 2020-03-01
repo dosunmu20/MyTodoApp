@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgcorners"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Something"
+            android:layout_marginTop="18dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000c5d"
+            android:textAlignment="center"
+            android:id="@+id/itemTitle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Need to do something"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#9a9a9a"
+            android:id="@+id/desc"
+            android:layout_marginBottom="18dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Time"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/time"
+        android:gravity="right"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyToDoApp</string>
+    <string name="myToDoList">Oustanding Tasks</string>
+    <string name="finish">Finish Them ASAP</string>
+    <string name="end">No More List</string>
+    <string name="newList">Add New Task</string>
+    <string name="addListTitle">Add List Title</string>
+    <string name="add_title">Add Task</string>
+    <string name="description">Description of Task</string>
+    <string name="time">Time to Finish</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="delete">Delete or Completed</string>
+</resources>
